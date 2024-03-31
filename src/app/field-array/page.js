@@ -14,7 +14,7 @@ const page = () => {
         >
             {(formik) => (
                 <Form>
-                    <p>Add Employees To DataBase</p>
+                    <p>Add Employees To Database</p>
                     <FieldArray name='employees' render={(arrayHelpers) => {
                         return (<>
                             {formik.values.employees.map((employee,index)=> (
